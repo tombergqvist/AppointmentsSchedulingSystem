@@ -34,6 +34,16 @@ namespace AppointmentsSchedulingSystem
 
             services.AddControllers();
             services.AddSwaggerGen();
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin();
+                        builder.AllowAnyMethod();
+                        builder.AllowAnyHeader();
+                    });
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IContext context)
@@ -52,10 +62,9 @@ namespace AppointmentsSchedulingSystem
             context.Instance.Database.EnsureCreated(); 
 
             app.UseHttpsRedirection();
-
             app.UseRouting();
-
             app.UseAuthorization();
+            app.UseCors();
 
             app.UseEndpoints(endpoints =>
             {
