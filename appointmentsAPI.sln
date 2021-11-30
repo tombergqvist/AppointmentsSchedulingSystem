@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentsSchedulingSystem", "AppointmentsSchedulingSystem\AppointmentsSchedulingSystem.csproj", "{2F6CDFF2-9BC3-425C-BFAA-371F0C80C10F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentsSchedulingSystem", "appointmentsAPI\appointmentsAPI.csproj", "{2F6CDFF2-9BC3-425C-BFAA-371F0C80C10F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
