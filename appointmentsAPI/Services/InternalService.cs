@@ -1,12 +1,12 @@
-﻿using AppointmentsSchedulingSystem.Mappers;
-using AppointmentsSchedulingSystem.Models;
+﻿using AppointmentsAPI.Mappers;
+using AppointmentsAPI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace AppointmentsSchedulingSystem.Services
+namespace AppointmentsAPI.Services
 {
     public class InternalService : IInternalService
     {

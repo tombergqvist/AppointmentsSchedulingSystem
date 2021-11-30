@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AppointmentsSchedulingSystem.Models
+namespace AppointmentsAPI.Models
 {
     public class Appointment
     {

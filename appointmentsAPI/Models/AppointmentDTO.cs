@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace AppointmentsSchedulingSystem.Models
+namespace AppointmentsAPI.Models
 {
     public class AppointmentDTO
     {

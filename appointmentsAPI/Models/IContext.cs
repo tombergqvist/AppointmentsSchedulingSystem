@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 
-namespace AppointmentsSchedulingSystem.Models
+namespace AppointmentsAPI.Models
 {
     public interface IContext : IDisposable
     {

@@ -1,10 +1,10 @@
-﻿using AppointmentsSchedulingSystem.Models;
+﻿using AppointmentsAPI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AppointmentsSchedulingSystem.Mappers
+namespace AppointmentsAPI.Mappers
 {
     public static class AppointmentMapper
     {

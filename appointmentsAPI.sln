@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentsSchedulingSystem", "appointmentsAPI\appointmentsAPI.csproj", "{2F6CDFF2-9BC3-425C-BFAA-371F0C80C10F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "appointmentsAPI", "appointmentsAPI\appointmentsAPI.csproj", "{2F6CDFF2-9BC3-425C-BFAA-371F0C80C10F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{A6005083-E556-4F08-AA18-11A3F6C047F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2F6CDFF2-9BC3-425C-BFAA-371F0C80C10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F6CDFF2-9BC3-425C-BFAA-371F0C80C10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F6CDFF2-9BC3-425C-BFAA-371F0C80C10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6005083-E556-4F08-AA18-11A3F6C047F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6005083-E556-4F08-AA18-11A3F6C047F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6005083-E556-4F08-AA18-11A3F6C047F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6005083-E556-4F08-AA18-11A3F6C047F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

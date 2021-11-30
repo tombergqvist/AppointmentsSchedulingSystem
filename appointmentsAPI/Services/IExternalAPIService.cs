@@ -1,8 +1,8 @@
-﻿using AppointmentsSchedulingSystem.Models;
+﻿using AppointmentsAPI.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace AppointmentsSchedulingSystem.Services
+namespace AppointmentsAPI.Services
 {
     public interface IExternalAPIService
     {

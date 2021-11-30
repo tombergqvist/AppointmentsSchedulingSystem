@@ -1,5 +1,5 @@
-﻿using AppointmentsSchedulingSystem.Mappers;
-using AppointmentsSchedulingSystem.Models;
+﻿using AppointmentsAPI.Mappers;
+using AppointmentsAPI.Models;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace AppointmentsSchedulingSystem.Services
+namespace AppointmentsAPI.Services
 {
     public class ExternalAPIService : IExternalAPIService
     {
